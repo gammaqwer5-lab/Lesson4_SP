@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Threading;
 
 public record Order(int Id, decimal Amount);
-
+ 
 public class Program
 {
     private static void ProcessOrder(Order order)
